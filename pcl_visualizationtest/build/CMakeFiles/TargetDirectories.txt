@@ -1,0 +1,3 @@
+/home/jiangbin/pcl_visualizationtest/build/CMakeFiles/rebuild_cache.dir
+/home/jiangbin/pcl_visualizationtest/build/CMakeFiles/edit_cache.dir
+/home/jiangbin/pcl_visualizationtest/build/CMakeFiles/cloud_viewer.dir

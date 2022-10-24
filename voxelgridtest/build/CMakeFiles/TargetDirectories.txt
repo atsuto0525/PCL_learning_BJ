@@ -1,0 +1,3 @@
+/home/jiangbin/voxelgridtest/build/CMakeFiles/rebuild_cache.dir
+/home/jiangbin/voxelgridtest/build/CMakeFiles/edit_cache.dir
+/home/jiangbin/voxelgridtest/build/CMakeFiles/voxel_grid.dir
