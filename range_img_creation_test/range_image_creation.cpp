@@ -1,4 +1,4 @@
-#include </pcl/range_image/range_image.h>
+#include <pcl/range_image/range_image.h>
 int main () {
   pcl::PointCloud<pcl::PointXYZ> pointCloud; // 点云
   
