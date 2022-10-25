@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jiangbin/projects/kdtree_search_test/kdtree_search.cpp
+/home/jiangbin/PCL_learning_BJ/kdtree_search_test/kdtree_search.cpp
 pcl/point_cloud.h
 -
 pcl/kdtree/kdtree_flann.h

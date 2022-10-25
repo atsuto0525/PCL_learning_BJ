@@ -1,4 +1,4 @@
-# Install script for directory: /home/jiangbin/projects/kdtree_search_test
+# Install script for directory: /home/jiangbin/PCL_learning_BJ/kdtree_search_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jiangbin/projects/kdtree_search_test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jiangbin/PCL_learning_BJ/kdtree_search_test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
