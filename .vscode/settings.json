@@ -1,0 +1,4 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/range_img_creation_test"
+}

@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jiangbin/PCL_learning_BJ/range_img_creation_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jiangbin/PCL_learning_BJ/range_img_creation_test/build
+CMAKE_BINARY_DIR = /home/jiangbin/PCL_learning_BJ/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiangbin/PCL_learning_BJ/range_img_creation_test/build/CMakeFiles /home/jiangbin/PCL_learning_BJ/range_img_creation_test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiangbin/PCL_learning_BJ/build/CMakeFiles /home/jiangbin/PCL_learning_BJ/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiangbin/PCL_learning_BJ/range_img_creation_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiangbin/PCL_learning_BJ/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,6 +110,46 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named range_image_creation
+
+# Build rule for target.
+range_image_creation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 range_image_creation
+.PHONY : range_image_creation
+
+# fast build rule for target.
+range_image_creation/fast:
+	$(MAKE) -f CMakeFiles/range_image_creation.dir/build.make CMakeFiles/range_image_creation.dir/build
+.PHONY : range_image_creation/fast
+
+range_image_creation.o: range_image_creation.cpp.o
+
+.PHONY : range_image_creation.o
+
+# target to build an object file
+range_image_creation.cpp.o:
+	$(MAKE) -f CMakeFiles/range_image_creation.dir/build.make CMakeFiles/range_image_creation.dir/range_image_creation.cpp.o
+.PHONY : range_image_creation.cpp.o
+
+range_image_creation.i: range_image_creation.cpp.i
+
+.PHONY : range_image_creation.i
+
+# target to preprocess a source file
+range_image_creation.cpp.i:
+	$(MAKE) -f CMakeFiles/range_image_creation.dir/build.make CMakeFiles/range_image_creation.dir/range_image_creation.cpp.i
+.PHONY : range_image_creation.cpp.i
+
+range_image_creation.s: range_image_creation.cpp.s
+
+.PHONY : range_image_creation.s
+
+# target to generate assembly for a file
+range_image_creation.cpp.s:
+	$(MAKE) -f CMakeFiles/range_image_creation.dir/build.make CMakeFiles/range_image_creation.dir/range_image_creation.cpp.s
+.PHONY : range_image_creation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... range_image_creation"
+	@echo "... range_image_creation.o"
+	@echo "... range_image_creation.i"
+	@echo "... range_image_creation.s"
 .PHONY : help
 
 
