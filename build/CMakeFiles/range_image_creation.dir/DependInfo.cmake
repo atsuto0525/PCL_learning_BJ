@@ -10,21 +10,16 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "BOOST_ALL_NO_LIB"
-  "BOOST_DATE_TIME_DYN_LINK"
-  "BOOST_FILESYSTEM_DYN_LINK"
-  "BOOST_IOSTREAMS_DYN_LINK"
-  "BOOST_SERIALIZATION_DYN_LINK"
-  "BOOST_SYSTEM_DYN_LINK"
+  "DISABLE_LIBUSB_1_0"
   "DISABLE_PCAP"
   "DISABLE_PNG"
+  "DISABLE_QHULL"
   "kiss_fft_scalar=double"
-  "qh_QHpointer"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/pcl-1.12"
+  "/usr/include/pcl-1.10"
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/usr/include/openni2"

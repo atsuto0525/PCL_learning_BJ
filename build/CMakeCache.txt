@@ -14,19 +14,43 @@
 # EXTERNAL cache entries
 ########################
 
+//Boost date_time library (debug)
+Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
+
 Boost_DATE_TIME_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
 
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0
+
+//Boost filesystem library (debug)
+Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
 Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
 
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/usr/include
 
+//Boost iostreams library (debug)
+Boost_IOSTREAMS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+
 Boost_IOSTREAMS_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
 
+//Boost library directory DEBUG
+Boost_LIBRARY_DIR_DEBUG:PATH=/usr/lib/x86_64-linux-gnu
+
+//Boost library directory RELEASE
+Boost_LIBRARY_DIR_RELEASE:PATH=/usr/lib/x86_64-linux-gnu
+
+//Boost regex library (debug)
+Boost_REGEX_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
+
+//Boost regex library (release)
+Boost_REGEX_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
+
 Boost_SERIALIZATION_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0
+
+//Boost system library (debug)
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
 
 Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 
@@ -231,6 +255,12 @@ EIGEN_INCLUDE_DIR:PATH=/usr/include/eigen3
 FLANN_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
+FLANN_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libflann_cpp.so
+
+//Path to a library.
+FLANN_LIBRARY_DEBUG:FILEPATH=FLANN_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
 FLANN_LIBRARY_DEBUG_SHARED:FILEPATH=FLANN_LIBRARY_DEBUG_SHARED-NOTFOUND
 
 //Path to a library.
@@ -268,6 +298,12 @@ GLEW_LIBRARY_DEBUG:FILEPATH=GLEW_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
 GLEW_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLEW.so
+
+//Path to a file.
+LIBUSB_1_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+LIBUSB_1_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libusb-1.0.so
 
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
@@ -339,7 +375,7 @@ PCL_COMMON_LIBRARY:FILEPATH=/usr/local/lib/libpcl_common.so
 PCL_COMMON_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libpcl_common.so
 
 //The directory containing a CMake configuration file for PCL.
-PCL_DIR:PATH=/usr/local/share/pcl-1.12
+PCL_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/pcl
 
 //path to features headers
 PCL_FEATURES_INCLUDE_DIR:PATH=/usr/local/include/pcl-1.12
@@ -361,6 +397,9 @@ PCL_FILTERS_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libpcl_filters.so
 
 //path to geometry headers
 PCL_GEOMETRY_INCLUDE_DIR:PATH=/usr/local/include/pcl-1.12
+
+//path to in_hand_scanner headers
+PCL_IN_HAND_SCANNER_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
 
 //path to io headers
 PCL_IO_INCLUDE_DIR:PATH=/usr/local/include/pcl-1.12
@@ -424,6 +463,9 @@ PCL_PEOPLE_LIBRARY:FILEPATH=/usr/local/lib/libpcl_people.so
 
 //path to pcl_people library debug
 PCL_PEOPLE_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libpcl_people.so
+
+//path to point_cloud_editor headers
+PCL_POINT_CLOUD_EDITOR_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
 
 //path to recognition headers
 PCL_RECOGNITION_INCLUDE_DIR:PATH=/usr/local/include/pcl-1.12
@@ -519,7 +561,10 @@ PCL_VISUALIZATION_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libpcl_visualization.so
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a library.
-QHULL_LIBRARY_DEBUG:FILEPATH=QHULL_LIBRARY_DEBUG-NOTFOUND
+QHULL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhull.so
+
+//Path to a library.
+QHULL_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhull.so
 
 //Path to a library.
 QHULL_LIBRARY_DEBUG_STATIC:FILEPATH=QHULL_LIBRARY_DEBUG_STATIC-NOTFOUND
@@ -532,6 +577,12 @@ QHULL_LIBRARY_STATIC:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhullstatic_r.a
 
 //The directory containing a CMake configuration file for Qhull.
 Qhull_DIR:PATH=Qhull_DIR-NOTFOUND
+
+//Path to a file.
+USB_10_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+USB_10_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libusb-1.0.so
 
 //The directory containing VTKConfig.cmake
 VTK_DIR:PATH=/usr/local/lib/cmake/vtk-9.2
@@ -810,6 +861,9 @@ pkgcfg_lib_PC_OPENNI2_OpenNI2:FILEPATH=/usr/lib/libOpenNI2.so
 pkgcfg_lib_PC_OPENNI_OpenNI:FILEPATH=/usr/lib/libOpenNI.so
 
 //Path to a library.
+pkgcfg_lib_PC_USB_10_usb-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libusb-1.0.so
+
+//Path to a library.
 pkgcfg_lib_PC_libusb_usb-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libusb-1.0.so
 
 //Path to a library.
@@ -829,8 +883,34 @@ range_image_creation_SOURCE_DIR:STATIC=/home/jiangbin/PCL_learning_BJ/range_img_
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_DEBUG
+Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_RELEASE
+Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
+Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
+Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_IOSTREAMS_LIBRARY_DEBUG
+Boost_IOSTREAMS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_IOSTREAMS_LIBRARY_RELEASE
+Boost_IOSTREAMS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_DEBUG
+Boost_LIBRARY_DIR_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_RELEASE
+Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_DEBUG
+Boost_REGEX_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_RELEASE
+Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
+Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
+Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -997,21 +1077,21 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: EIGEN_INCLUDE_DIR
 EIGEN_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: system filesystem date_time iostreams serialization ][v1.71.0(1.65.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/include][cfound components: system filesystem date_time iostreams regex ][v1.71.0(1.55.0)]
 //Details about finding Eigen
-FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v(3.3)]
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v(3.1)]
 //Details about finding FLANN
 FIND_PACKAGE_MESSAGE_DETAILS_FLANN:INTERNAL=[/usr/lib/x86_64-linux-gnu/libflann_cpp.so][/usr/include][v()]
 //Details about finding GLEW
 FIND_PACKAGE_MESSAGE_DETAILS_GLEW:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libGLEW.so][v()]
 //Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][c ][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][cfound components: OpenGL GLX ][v()]
 //Details about finding OpenNI
-FIND_PACKAGE_MESSAGE_DETAILS_OpenNI:INTERNAL=[/usr/lib/libOpenNI.so;libusb::libusb][/usr/include/ni][v1.5.4.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenNI:INTERNAL=[/usr/lib/libOpenNI.so][/usr/include/ni][v()]
 //Details about finding OpenNI2
-FIND_PACKAGE_MESSAGE_DETAILS_OpenNI2:INTERNAL=[/usr/lib/libOpenNI2.so;libusb::libusb][/usr/include/openni2][v2.2.0.33()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenNI2:INTERNAL=[/usr/lib/libOpenNI2.so][/usr/include/openni2][v()]
 //Details about finding PCL
-FIND_PACKAGE_MESSAGE_DETAILS_PCL:INTERNAL=[pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;pcl_simulation;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;FLANN::FLANN;QHULL::QHULL][/usr/local/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2][v(1.2)]
+FIND_PACKAGE_MESSAGE_DETAILS_PCL:INTERNAL=[pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;optimized;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_system.so;optimized;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;optimized;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;optimized;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;VTK::ChartsCore;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersModeling;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingLOD;VTK::ViewsContext2D;VTK::RenderingContextOpenGL2;FLANN::FLANN][/usr/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2][v(1.2)]
 //Details about finding PCL_2D
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_2D:INTERNAL=[/usr/local/include/pcl-1.12][v()]
 //Details about finding PCL_APPS
@@ -1024,6 +1104,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PCL_FEATURES:INTERNAL=[/usr/local/lib/libpcl_featur
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_FILTERS:INTERNAL=[/usr/local/lib/libpcl_filters.so][/usr/local/include/pcl-1.12][v()]
 //Details about finding PCL_GEOMETRY
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_GEOMETRY:INTERNAL=[/usr/local/include/pcl-1.12][v()]
+//Details about finding PCL_IN_HAND_SCANNER
+FIND_PACKAGE_MESSAGE_DETAILS_PCL_IN_HAND_SCANNER:INTERNAL=[/usr/include/pcl-1.10][v()]
 //Details about finding PCL_IO
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_IO:INTERNAL=[/usr/local/lib/libpcl_io.so][/usr/local/include/pcl-1.12][v()]
 //Details about finding PCL_KDTREE
@@ -1038,6 +1120,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PCL_OCTREE:INTERNAL=[/usr/local/lib/libpcl_octree.s
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_OUTOFCORE:INTERNAL=[/usr/local/lib/libpcl_outofcore.so][/usr/local/include/pcl-1.12][v()]
 //Details about finding PCL_PEOPLE
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_PEOPLE:INTERNAL=[/usr/local/lib/libpcl_people.so][/usr/local/include/pcl-1.12][v()]
+//Details about finding PCL_POINT_CLOUD_EDITOR
+FIND_PACKAGE_MESSAGE_DETAILS_PCL_POINT_CLOUD_EDITOR:INTERNAL=[/usr/include/pcl-1.10][v()]
 //Details about finding PCL_RECOGNITION
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_RECOGNITION:INTERNAL=[/usr/local/lib/libpcl_recognition.so][/usr/local/include/pcl-1.12][v()]
 //Details about finding PCL_REGISTRATION
@@ -1062,10 +1146,14 @@ FIND_PACKAGE_MESSAGE_DETAILS_PCL_VISUALIZATION:INTERNAL=[/usr/local/lib/libpcl_v
 FIND_PACKAGE_MESSAGE_DETAILS_Qhull:INTERNAL=[/usr/lib/x86_64-linux-gnu/libqhull_r.so][/usr/include][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding USB_10
+FIND_PACKAGE_MESSAGE_DETAILS_USB_10:INTERNAL=[/usr/lib/x86_64-linux-gnu/libusb-1.0.so][/usr/include][v()]
 //Details about finding X11
 FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libX11.so][c ][v()]
 //Details about finding libusb
 FIND_PACKAGE_MESSAGE_DETAILS_libusb:INTERNAL=[/usr/lib/x86_64-linux-gnu/libusb-1.0.so][/usr/include][v()]
+//Details about finding libusb-1.0
+FIND_PACKAGE_MESSAGE_DETAILS_libusb-1.0:INTERNAL=[/usr/include][v()]
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_freetype2
 FREETYPE_INCLUDE_DIR_freetype2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_ft2build
@@ -1132,6 +1220,8 @@ PCL_FILTERS_LIBRARY-ADVANCED:INTERNAL=1
 PCL_FILTERS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_GEOMETRY_INCLUDE_DIR
 PCL_GEOMETRY_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_IN_HAND_SCANNER_INCLUDE_DIR
+PCL_IN_HAND_SCANNER_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_IO_INCLUDE_DIR
 PCL_IO_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_IO_LIBRARY
@@ -1174,6 +1264,8 @@ PCL_PEOPLE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 PCL_PEOPLE_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_PEOPLE_LIBRARY_DEBUG
 PCL_PEOPLE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_POINT_CLOUD_EDITOR_INCLUDE_DIR
+PCL_POINT_CLOUD_EDITOR_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_RECOGNITION_INCLUDE_DIR
 PCL_RECOGNITION_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_RECOGNITION_LIBRARY
@@ -1374,6 +1466,41 @@ PC_OPENNI_libopenni_INCLUDEDIR:INTERNAL=
 PC_OPENNI_libopenni_LIBDIR:INTERNAL=
 PC_OPENNI_libopenni_PREFIX:INTERNAL=
 PC_OPENNI_libopenni_VERSION:INTERNAL=
+PC_USB_10_CFLAGS:INTERNAL=-I/usr/include/libusb-1.0
+PC_USB_10_CFLAGS_I:INTERNAL=
+PC_USB_10_CFLAGS_OTHER:INTERNAL=
+PC_USB_10_FOUND:INTERNAL=1
+PC_USB_10_INCLUDEDIR:INTERNAL=/usr/include
+PC_USB_10_INCLUDE_DIRS:INTERNAL=/usr/include/libusb-1.0
+PC_USB_10_LDFLAGS:INTERNAL=-lusb-1.0
+PC_USB_10_LDFLAGS_OTHER:INTERNAL=
+PC_USB_10_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_USB_10_LIBRARIES:INTERNAL=usb-1.0
+PC_USB_10_LIBRARY_DIRS:INTERNAL=
+PC_USB_10_LIBS:INTERNAL=
+PC_USB_10_LIBS_L:INTERNAL=
+PC_USB_10_LIBS_OTHER:INTERNAL=
+PC_USB_10_LIBS_PATHS:INTERNAL=
+PC_USB_10_MODULE_NAME:INTERNAL=libusb-1.0
+PC_USB_10_PREFIX:INTERNAL=/usr
+PC_USB_10_STATIC_CFLAGS:INTERNAL=-I/usr/include/libusb-1.0
+PC_USB_10_STATIC_CFLAGS_I:INTERNAL=
+PC_USB_10_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_USB_10_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/libusb-1.0
+PC_USB_10_STATIC_LDFLAGS:INTERNAL=-lusb-1.0;-ludev;-pthread
+PC_USB_10_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
+PC_USB_10_STATIC_LIBDIR:INTERNAL=
+PC_USB_10_STATIC_LIBRARIES:INTERNAL=usb-1.0;udev
+PC_USB_10_STATIC_LIBRARY_DIRS:INTERNAL=
+PC_USB_10_STATIC_LIBS:INTERNAL=
+PC_USB_10_STATIC_LIBS_L:INTERNAL=
+PC_USB_10_STATIC_LIBS_OTHER:INTERNAL=
+PC_USB_10_STATIC_LIBS_PATHS:INTERNAL=
+PC_USB_10_VERSION:INTERNAL=1.0.23
+PC_USB_10_libusb-1.0_INCLUDEDIR:INTERNAL=
+PC_USB_10_libusb-1.0_LIBDIR:INTERNAL=
+PC_USB_10_libusb-1.0_PREFIX:INTERNAL=
+PC_USB_10_libusb-1.0_VERSION:INTERNAL=
 PC_libusb_CFLAGS:INTERNAL=-I/usr/include/libusb-1.0
 PC_libusb_CFLAGS_I:INTERNAL=
 PC_libusb_CFLAGS_OTHER:INTERNAL=
@@ -1594,16 +1721,34 @@ X11_xkbcommon_X11_LIB-ADVANCED:INTERNAL=1
 X11_xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_LIB
 X11_xkbfile_LIB-ADVANCED:INTERNAL=1
+//Last used BOOST_INCLUDEDIR value.
+_BOOST_INCLUDEDIR_LAST:INTERNAL=/usr/include
+//Last used Boost_ADDITIONAL_VERSIONS value.
+_Boost_ADDITIONAL_VERSIONS_LAST:INTERNAL=1.71.0;1.71;1.71.0;1.71;1.70.0;1.70;1.69.0;1.69;1.68.0;1.68;1.67.0;1.67;1.66.0;1.66;1.65.1;1.65.0;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=date_time;filesystem;iostreams;regex;system
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
+//Last used Boost_LIBRARY_DIR_DEBUG value.
+_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
+//Last used Boost_LIBRARY_DIR_RELEASE value.
+_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 __pkg_config_arguments_PC_EIGEN:INTERNAL=eigen3
 __pkg_config_arguments_PC_FLANN:INTERNAL=flann
 __pkg_config_arguments_PC_OPENNI:INTERNAL=QUIET;libopenni
 __pkg_config_arguments_PC_OPENNI2:INTERNAL=QUIET;libopenni2
+__pkg_config_arguments_PC_USB_10:INTERNAL=libusb-1.0
 __pkg_config_arguments_PC_libusb:INTERNAL=libusb-1.0
 __pkg_config_arguments_PKG_FONTCONFIG:INTERNAL=QUIET;fontconfig
 __pkg_config_checked_PC_EIGEN:INTERNAL=1
 __pkg_config_checked_PC_FLANN:INTERNAL=1
 __pkg_config_checked_PC_OPENNI:INTERNAL=1
 __pkg_config_checked_PC_OPENNI2:INTERNAL=1
+__pkg_config_checked_PC_USB_10:INTERNAL=1
 __pkg_config_checked_PC_libusb:INTERNAL=1
 __pkg_config_checked_PKG_FONTCONFIG:INTERNAL=1
 //ADVANCED property for variable: boost_date_time_DIR
@@ -1630,11 +1775,13 @@ pkgcfg_lib_PC_FLANN_lz4-ADVANCED:INTERNAL=1
 pkgcfg_lib_PC_OPENNI2_OpenNI2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_OPENNI_OpenNI
 pkgcfg_lib_PC_OPENNI_OpenNI-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_USB_10_usb-1.0
+pkgcfg_lib_PC_USB_10_usb-1.0-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_libusb_usb-1.0
 pkgcfg_lib_PC_libusb_usb-1.0-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_fontconfig
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_freetype
 pkgcfg_lib_PKG_FONTCONFIG_freetype-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

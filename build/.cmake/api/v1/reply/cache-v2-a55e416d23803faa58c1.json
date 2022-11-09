@@ -2,9 +2,29 @@
 	"entries" : 
 	[
 		{
+			"name" : "Boost_DATE_TIME_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost date_time library (debug)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so"
+		},
+		{
 			"name" : "Boost_DATE_TIME_LIBRARY_RELEASE",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : ""
@@ -30,9 +50,29 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0"
 		},
 		{
+			"name" : "Boost_FILESYSTEM_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost filesystem library (debug)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so"
+		},
+		{
 			"name" : "Boost_FILESYSTEM_LIBRARY_RELEASE",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : ""
@@ -46,6 +86,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
@@ -54,9 +98,29 @@
 			"value" : "/usr/include"
 		},
 		{
+			"name" : "Boost_IOSTREAMS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost iostreams library (debug)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so"
+		},
+		{
 			"name" : "Boost_IOSTREAMS_LIBRARY_RELEASE",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : ""
@@ -64,6 +128,70 @@
 			],
 			"type" : "STRING",
 			"value" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0"
+		},
+		{
+			"name" : "Boost_LIBRARY_DIR_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost library directory DEBUG"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "Boost_LIBRARY_DIR_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost library directory RELEASE"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "Boost_REGEX_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost regex library (debug)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so"
+		},
+		{
+			"name" : "Boost_REGEX_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost regex library (release)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so"
 		},
 		{
 			"name" : "Boost_SERIALIZATION_LIBRARY_RELEASE",
@@ -78,9 +206,29 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0"
 		},
 		{
+			"name" : "Boost_SYSTEM_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Boost system library (debug)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libboost_system.so"
+		},
+		{
 			"name" : "Boost_SYSTEM_LIBRARY_RELEASE",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : ""
@@ -1355,7 +1503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake][cfound components: system filesystem date_time iostreams serialization ][v1.71.0(1.65.0)]"
+			"value" : "[/usr/include][cfound components: system filesystem date_time iostreams regex ][v1.71.0(1.55.0)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Eigen",
@@ -1367,7 +1515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/include/eigen3][v(3.3)]"
+			"value" : "[/usr/include/eigen3][v(3.1)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_FLANN",
@@ -1403,7 +1551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][c ][v()]"
+			"value" : "[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][cfound components: OpenGL GLX ][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenNI",
@@ -1415,7 +1563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libOpenNI.so;libusb::libusb][/usr/include/ni][v1.5.4.0()]"
+			"value" : "[/usr/lib/libOpenNI.so][/usr/include/ni][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenNI2",
@@ -1427,7 +1575,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libOpenNI2.so;libusb::libusb][/usr/include/openni2][v2.2.0.33()]"
+			"value" : "[/usr/lib/libOpenNI2.so][/usr/include/openni2][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PCL",
@@ -1439,7 +1587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;pcl_simulation;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;FLANN::FLANN;QHULL::QHULL][/usr/local/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2][v(1.2)]"
+			"value" : "[pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;optimized;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_system.so;optimized;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;optimized;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;optimized;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0;debug;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;VTK::ChartsCore;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersModeling;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingLOD;VTK::ViewsContext2D;VTK::RenderingContextOpenGL2;FLANN::FLANN][/usr/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2][v(1.2)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PCL_2D",
@@ -1512,6 +1660,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/local/include/pcl-1.12][v()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PCL_IN_HAND_SCANNER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding PCL_IN_HAND_SCANNER"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/include/pcl-1.10][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PCL_IO",
@@ -1596,6 +1756,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/local/lib/libpcl_people.so][/usr/local/include/pcl-1.12][v()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PCL_POINT_CLOUD_EDITOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding PCL_POINT_CLOUD_EDITOR"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/include/pcl-1.10][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PCL_RECOGNITION",
@@ -1742,6 +1914,18 @@
 			"value" : "[TRUE][v()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_USB_10",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding USB_10"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/libusb-1.0.so][/usr/include][v()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_X11",
 			"properties" : 
 			[
@@ -1766,6 +1950,18 @@
 			"value" : "[/usr/lib/x86_64-linux-gnu/libusb-1.0.so][/usr/include][v()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_libusb-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding libusb-1.0"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/include][v()]"
+		},
+		{
 			"name" : "FLANN_INCLUDE_DIR",
 			"properties" : 
 			[
@@ -1776,6 +1972,30 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/include"
+		},
+		{
+			"name" : "FLANN_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libflann_cpp.so"
+		},
+		{
+			"name" : "FLANN_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "FLANN_LIBRARY_DEBUG-NOTFOUND"
 		},
 		{
 			"name" : "FLANN_LIBRARY_DEBUG_SHARED",
@@ -1970,6 +2190,30 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libGLEW.so"
 		},
 		{
+			"name" : "LIBUSB_1_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "LIBUSB_1_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libusb-1.0.so"
+		},
+		{
 			"name" : "OPENGL_EGL_INCLUDE_DIR",
 			"properties" : 
 			[
@@ -2056,22 +2300,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libEGL.so"
-		},
-		{
-			"name" : "OPENGL_gl_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "OPENGL_gles2_LIBRARY",
@@ -2467,7 +2695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/local/share/pcl-1.12"
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/pcl"
 		},
 		{
 			"name" : "PCL_FEATURES_INCLUDE_DIR",
@@ -2631,6 +2859,38 @@
 		},
 		{
 			"name" : "PCL_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
+			"name" : "PCL_IN_HAND_SCANNER_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "path to in_hand_scanner headers"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include/pcl-1.10"
+		},
+		{
+			"name" : "PCL_IN_HAND_SCANNER_INCLUDE_DIRS",
 			"properties" : 
 			[
 				{
@@ -3126,6 +3386,38 @@
 			"value" : "/usr/local/lib/libpcl_people.so"
 		},
 		{
+			"name" : "PCL_POINT_CLOUD_EDITOR_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "path to point_cloud_editor headers"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include/pcl-1.10"
+		},
+		{
+			"name" : "PCL_POINT_CLOUD_EDITOR_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
 			"name" : "PCL_RECOGNITION_INCLUDE_DIR",
 			"properties" : 
 			[
@@ -3460,22 +3752,6 @@
 			],
 			"type" : "PATH",
 			"value" : "/usr/local/include/pcl-1.12"
-		},
-		{
-			"name" : "PCL_SIMULATION_INCLUDE_DIRS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "PCL_SIMULATION_LIBRARY",
@@ -5446,6 +5722,426 @@
 			"value" : ""
 		},
 		{
+			"name" : "PC_USB_10_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/libusb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "PC_USB_10_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "PC_USB_10_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/libusb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lusb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "PC_USB_10_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "usb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_MODULE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "libusb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr"
+		},
+		{
+			"name" : "PC_USB_10_STATIC_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/libusb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_STATIC_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/libusb-1.0"
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lusb-1.0;-ludev;-pthread"
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "usb-1.0;udev"
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_STATIC_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1.0.23"
+		},
+		{
+			"name" : "PC_USB_10_libusb-1.0_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_libusb-1.0_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_libusb-1.0_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PC_USB_10_libusb-1.0_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
 			"name" : "PC_libusb_CFLAGS",
 			"properties" : 
 			[
@@ -6314,6 +7010,18 @@
 			"value" : "/usr/include/libqhull_r/libqhull_r.h"
 		},
 		{
+			"name" : "QHULL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libqhull.so"
+		},
+		{
 			"name" : "QHULL_LIBRARY_DEBUG",
 			"properties" : 
 			[
@@ -6323,7 +7031,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "QHULL_LIBRARY_DEBUG-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libqhull.so"
 		},
 		{
 			"name" : "QHULL_LIBRARY_DEBUG_STATIC",
@@ -6372,6 +7080,30 @@
 			],
 			"type" : "PATH",
 			"value" : "Qhull_DIR-NOTFOUND"
+		},
+		{
+			"name" : "USB_10_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "USB_10_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libusb-1.0.so"
 		},
 		{
 			"name" : "VTK_DIR",
@@ -7634,6 +8366,102 @@
 			"value" : "X11_xkbfile_LIB-NOTFOUND"
 		},
 		{
+			"name" : "_BOOST_INCLUDEDIR_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used BOOST_INCLUDEDIR value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "_Boost_ADDITIONAL_VERSIONS_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_ADDITIONAL_VERSIONS value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1.71.0;1.71;1.71.0;1.71;1.70.0;1.70;1.69.0;1.69;1.68.0;1.68;1.67.0;1.67;1.66.0;1.66;1.65.1;1.65.0;1.65;1.64.0;1.64;1.63.0;1.63;1.62.0;1.62;1.61.0;1.61;1.60.0;1.60;1.59.0;1.59;1.58.0;1.58;1.57.0;1.57;1.56.0;1.56;1.55.0;1.55"
+		},
+		{
+			"name" : "_Boost_COMPONENTS_SEARCHED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Components requested for this build tree."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "date_time;filesystem;iostreams;regex;system"
+		},
+		{
+			"name" : "_Boost_INCLUDE_DIR_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_INCLUDE_DIR value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "_Boost_LIBRARY_DIR_DEBUG_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_LIBRARY_DIR_DEBUG value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "_Boost_LIBRARY_DIR_RELEASE_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_LIBRARY_DIR_RELEASE value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "_Boost_NAMESPACE_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_NAMESPACE value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "boost"
+		},
+		{
+			"name" : "_Boost_USE_MULTITHREADED_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_USE_MULTITHREADED value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
 			"name" : "__pkg_config_arguments_PC_EIGEN",
 			"properties" : 
 			[
@@ -7680,6 +8508,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "QUIET;libopenni2"
+		},
+		{
+			"name" : "__pkg_config_arguments_PC_USB_10",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "libusb-1.0"
 		},
 		{
 			"name" : "__pkg_config_arguments_PC_libusb",
@@ -7743,6 +8583,18 @@
 		},
 		{
 			"name" : "__pkg_config_checked_PC_OPENNI2",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "__pkg_config_checked_PC_USB_10",
 			"properties" : 
 			[
 				{
@@ -7898,22 +8750,6 @@
 			"value" : "/usr/include"
 		},
 		{
-			"name" : "libusb_INCLUDE_DIRS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "libusb_LIBRARIES",
 			"properties" : 
 			[
@@ -8010,6 +8846,22 @@
 			"value" : "/usr/lib/libOpenNI.so"
 		},
 		{
+			"name" : "pkgcfg_lib_PC_USB_10_usb-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libusb-1.0.so"
+		},
+		{
 			"name" : "pkgcfg_lib_PC_libusb_usb-1.0",
 			"properties" : 
 			[
@@ -8067,7 +8919,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/lib"
+			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
 			"name" : "range_image_creation_BINARY_DIR",
