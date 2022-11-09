@@ -4,6 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "/usr/include/pcl-1.12",
                 "/usr/include/eigen3",
                 "/usr/include",
                 "/usr/local/include",
